@@ -42,5 +42,8 @@
     "robotics",
     "robots",
     "rpi"
-  ]
+  ],
+  "dependencies": {
+    "events": "^3.3.0"
+  }
 }
