@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outDir": "dist",
     "target": "esnext",
-    "module": "esnext",
+    "module": "umd",
     "moduleResolution": "node",
     "declaration": true,
     "strict": true,
