@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outDir": "dist",
     "target": "es2015",
-    "module": "es2020",
+    "module": "es2015",
     "declaration": true,
     "strict": true,
     "noFallthroughCasesInSwitch": true,
