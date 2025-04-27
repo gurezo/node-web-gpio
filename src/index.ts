@@ -14,8 +14,8 @@ export async function requestGPIOAccess(): Promise<GPIOAccess> {
   try {
     await access.unexportAll();
     await sleep(100);
-  } catch {
-    // Ignore errors.
+  } catch (error) {
+    console.error(error);
   }
 
   return access;
